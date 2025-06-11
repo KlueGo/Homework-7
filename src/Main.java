@@ -59,6 +59,9 @@ public class Main {
 
         int firstFriday = 5;
         int date = 0;
+
+        System.out.println("Сегодня пятница, " + firstFriday + " число. Необходимо подготовить отчёт");
+
         while (date <= 31){
             date++;
             firstFriday++;

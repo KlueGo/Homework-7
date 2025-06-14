@@ -40,18 +40,44 @@ public class Main {
             System.out.println("Год " + i + ", численность населения составляет " + allPeople);
         }
 
-        //Task4,5,6
+        //Task4
 
         int money = 15000;
-        //int goal = 12000000;
         int monthNext = 0;
 
-        while (monthNext < 108) {
+        while (money < 12000000) {
             money = (int) (money + money * 0.07);
             monthNext++;
-            boolean monthNextReal = monthNext % 6 == 0;
-            if (monthNextReal) {
                 System.out.println("Месяц " + monthNext + ", сумма накоплений " + money);
+            }
+
+        //Task5
+
+        int money2 = 15000;
+        //int goal = 12000000;
+        int monthNext2 = 0;
+
+        while (money2 < 12000000) {
+            money2 = (int) (money2 + money2 * 0.07);
+            monthNext2++;
+            boolean monthNextReal2 = monthNext2 % 6 == 0;
+            if (monthNextReal2) {
+                System.out.println("Месяц " + monthNext2 + ", сумма накоплений " + money2);
+            }
+        }
+
+        //Task6
+
+        int money3 = 15000;
+        //int goal = 12000000;
+        int monthNext3 = 0;
+
+        while (monthNext3 < 108) {
+            money3 = (int) (money3 + money3 * 0.07);
+            monthNext3++;
+            boolean monthNextReal3 = monthNext3 % 6 == 0;
+            if (monthNextReal3) {
+                System.out.println("Месяц " + monthNext3 + ", сумма накоплений " + money3);
             }
         }
 
